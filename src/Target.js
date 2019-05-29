@@ -21,7 +21,9 @@ class Target extends Component {
       backgroundColor: !hovered ? '#ff3860' : lighten(0.1, '#ff3860')
     };
 
-    return connectDropTarget(<div className="target" style={targetStyle} />);
+    return connectDropTarget(
+      <div className="target box has-text-white" style={targetStyle} />
+    );
   }
 }
 

@@ -1,15 +1,17 @@
 {
-  "name": "dnd-connect",
+  "name": "react-dnd-examples",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "array-move": "^2.1.0",
     "bulma": "^0.7.5",
     "polished": "^3.4.0",
     "react": "^16.8.6",
     "react-dnd": "^7.4.5",
     "react-dnd-html5-backend": "^7.4.4",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-sortable-hoc": "^1.9.1"
   },
   "scripts": {
     "start": "react-scripts start",
